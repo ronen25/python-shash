@@ -78,10 +78,13 @@ static struct PyMethodDef method_table[] = {
 
 /* Module definition and initialization */
 
+const char * const shash_doc = "A Python wrapper for shash, implementing Charkiar's hash for identifying " \
+"documents and detecting duplicate documents";
+
 static struct PyModuleDef python_shash_moddef = {
     PyModuleDef_HEAD_INIT,
     "python-shash",
-    NULL,
+    shash_doc,
     -1,
     method_table
 };
