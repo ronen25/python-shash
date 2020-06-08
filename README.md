@@ -18,6 +18,7 @@ $ git clone https://github.com/ronen25/python-shash
 $ cd python-shash
 $ python3 setup.py install
 ```
+It is recommended to do so in a virtual environment, so as not to pollute your global environment.
 
 ## The API
 The API is rather simplistic and remains true to the original C source, with two hash functions
