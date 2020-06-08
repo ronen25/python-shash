@@ -5,6 +5,20 @@ Charikar's Hash for Identifying Similar Documents
 This module wraps around an excellent [C implementation](https://github.com/vilda/shash/) of [Charikar's Hash](https://en.wikipedia.org/wiki/Moses_Charikar), 
 used to identify (and thus check) the similarity of documents.
 
+It has been tested with Python 3.8 on Ubuntu 20.04 AMD64, but should work with pretty much every 3.x version of Python.
+
+## Binary Installation
+*There is none yet*, since I would like to thoroughly test this module in a production envrionment.
+When that's done, it will be uploaded to PyPI.
+
+## Compilation From Source
+Clone the repository and build from source:
+```bash
+$ git clone https://github.com/ronen25/python-shash
+$ cd python-shash
+$ python3 setup.py install
+```
+
 ## The API
 The API is rather simplistic and remains true to the original C source, with two hash functions
 and a Hamming distance function.
