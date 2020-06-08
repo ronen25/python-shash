@@ -1,3 +1,11 @@
+#
+# Python wrapper for shash
+#
+# Public domain
+# 2020 Ronen Lapushner
+# 2007 Viliam Holub
+#
+
 from distutils.core import setup, Extension
 
 def main():
