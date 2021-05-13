@@ -53,7 +53,7 @@ print(h2)
 print(shash.hamming_dist(h1, h2))
 >>> 17
 
-print(shash.hamming_dist(h1, h1)) # Strings are similar, should print 0
+print(shash.hamming_dist(h1, h1)) # Strings are the same, should print 0
 >>> 0
 
 s4 = 'testing this beautiful strings'
